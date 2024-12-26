@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+    <title>List</title>
+</head>
+<body class="bg-[#F2EAE1]">
+    <header class="flex justify-between">
+        <div class="flex mt-[18px] ml-[25px]">
+            <hr class="h-[39px] border-l-[12px] border-[#FEAF00]">
+            <img class="mb-[43px] ml-[12px]" src="./images/admin-logo.svg" alt="Logo img" width="273" height="39">
+        </div>
+            <label class="flex w-[212px] h-[37px] justify-between mt-[12px] mb-[11px] mr-[51px]">
+                <input class="pl-[13px] pt-[9px] realtive pb-[11px] pr-[25px] rounded-[8px] bg-white" type="text" name="text" placeholder="Search...">
+                <img class="ml-[195px] mt-[11px] absolute" src="./images/search-icon.svg" alt="Search icon" width="14" height="14">
+            </label>
+    </header>
+    <div>
+        <div class="w-[130px] h-[196px] ml-[65px] text-center">
+            <img class="rounded-[50%] mb-[15px]" src="./images/madesh-img.png" alt="madesh-img" width="130" height="196">
+            <h2 class="text-[17px] leading-[20px] font-bold mb-[10px]">Karthi Madesh</h2>
+            <p class="text-[#FEAF00] text-center">Admin</p>
+            <button class="w-[193px] h-[41px] bg-[#FEAF00] flex items-center justify-center">
+                <img src="./images/scholl-img.svg" alt="scholl-img" width="20" height="12"><span class="text-[14px] leading-[17px] ml-[10px]">Students</span>
+            </button>
+        </div>
+        <div></div>
+    </div>
+    
+    <script src="./js/list.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
